@@ -15,8 +15,7 @@ namespace EFCore.WebAPI.Data
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder) // String de Conexão
         {
-            optionsBuilder.UseSqlServer("Password=paranoia13;Persist Security Info=True;User ID=sa;Initial Catalog=HeroApp;Data Source=DESKTOP-T9A7732/SQLEXPRESS");
+            optionsBuilder.UseSqlServer("Password=paranoia13;Persist Security Info=True;User ID=sa;Initial Catalog=HeroApp;Data Source=DESKTOP-T9A7732");
         }
-
     }
 }

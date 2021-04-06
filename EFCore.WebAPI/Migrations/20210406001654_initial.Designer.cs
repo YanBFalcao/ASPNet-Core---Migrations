@@ -10,7 +10,7 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace EFCore.WebAPI.Migrations
 {
     [DbContext(typeof(HeroiContext))]
-    [Migration("20210401005437_initial")]
+    [Migration("20210406001654_initial")]
     partial class initial
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)

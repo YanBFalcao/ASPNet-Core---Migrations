@@ -1,4 +1,3 @@
-C:\Users\yan-w\Desktop\Projetos - Programação\EFCore.WebAPI\EFCore.WebAPI\obj\Debug\netcoreapp3.1\EFCore.WebAPI.csprojAssemblyReference.cache
 C:\Users\yan-w\Desktop\Projetos - Programação\EFCore.WebAPI\EFCore.WebAPI\obj\Debug\netcoreapp3.1\EFCore.WebAPI.AssemblyInfoInputs.cache
 C:\Users\yan-w\Desktop\Projetos - Programação\EFCore.WebAPI\EFCore.WebAPI\obj\Debug\netcoreapp3.1\EFCore.WebAPI.AssemblyInfo.cs
 C:\Users\yan-w\Desktop\Projetos - Programação\EFCore.WebAPI\EFCore.WebAPI\obj\Debug\netcoreapp3.1\EFCore.WebAPI.csproj.CoreCompileInputs.cache
@@ -58,3 +57,4 @@ C:\Users\yan-w\Desktop\Projetos - Programação\EFCore.WebAPI\EFCore.WebAPI\obj\
 C:\Users\yan-w\Desktop\Projetos - Programação\EFCore.WebAPI\EFCore.WebAPI\obj\Debug\netcoreapp3.1\EFCore.WebAPI.genruntimeconfig.cache
 C:\Users\yan-w\Desktop\Projetos - Programação\EFCore.WebAPI\EFCore.WebAPI\bin\Debug\netcoreapp3.1\Humanizer.dll
 C:\Users\yan-w\Desktop\Projetos - Programação\EFCore.WebAPI\EFCore.WebAPI\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Design.dll
+C:\Users\yan-w\Desktop\Projetos - Programação\EFCore.WebAPI\EFCore.WebAPI\obj\Debug\netcoreapp3.1\EFCore.WebAPI.csprojAssemblyReference.cache
