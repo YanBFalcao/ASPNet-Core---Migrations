@@ -1,6 +1,8 @@
+using EFCore.WebAPI.Data;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
@@ -22,8 +24,14 @@ namespace EFCore.WebAPI
         public IConfiguration Configuration { get; }
 
         // This method gets called by the runtime. Use this method to add services to the container.
+
         public void ConfigureServices(IServiceCollection services)
         {
+            // adicionar os serviços e injeções declaradas aqui em baixo
+
+            services.AddDbContext<HeroiContext>(o => o.UseSqlServer(Configuration.GetConnectionString("Password=paranoia13;Persist Security Info=True;User ID=sa;Initial Catalog=HeroApp;Data Source=DESKTOP-T9A7732"))); 
+            // na declaração de services acima, troquei o "DefaultConnection" pela minha string de conexão
+
             services.AddControllers();
         }
 

@@ -13,7 +13,12 @@ namespace EFCore.WebAPI.Data
         public DbSet<Arma> Armas { get; set; }
         public DbSet<Batalha> Batalhas { get; set; }
 
-        protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder) // String de Conexão
+        public HeroiContext(DbContextOptions<HeroiContext> options)
+            : base(options)
+        {            
+        }
+
+            protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder) // String de Conexão
         {
             optionsBuilder.UseSqlServer("Password=paranoia13;Persist Security Info=True;User ID=sa;Initial Catalog=HeroApp;Data Source=DESKTOP-T9A7732");
         }
